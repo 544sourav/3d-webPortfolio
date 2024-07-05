@@ -11,7 +11,7 @@ function App() {
 
 
   return (
-    <div className='bg-slate-100 overflow-hidden'>
+    <div className='w-screen min-h-screen bg-slate-100 overflow-hidden'>
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
