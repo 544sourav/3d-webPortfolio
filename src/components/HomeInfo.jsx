@@ -22,8 +22,6 @@ export const HomeInfo = ({currentStage}) => {
               }
               {data.btnText && data.path && (
                 <Link to={data.path} 
-                        target='_blank'
-                        rel='noopener noreferrer'
                 className='neo-brutalism-blue neo-btn'>
                   {data.btnText}
                   <FaArrowRightLong/>

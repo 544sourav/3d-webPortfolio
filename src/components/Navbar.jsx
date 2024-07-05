@@ -5,7 +5,7 @@ const NavbarLinks = [
     
     {
       title: "Projects",
-       path: '/Projects',
+       path: '/projects',
       icon:"VscLayout"
     },
     {
