@@ -3,7 +3,7 @@ import { Html } from "@react-three/drei"
 export const Loader = () => {
   return (
     <Html>
-        <div className="grid place-content-center place-items-center">
+        <div className="flex items-center justify-center">
         <div className="loader"></div>
         <div className="blue-gradient_text text-xl">Loading...</div>
     </div>
